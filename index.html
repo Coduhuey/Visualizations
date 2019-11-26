@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zac Efron: Earnings On Map, Popular Movie Topics, Ratings to Earnings (Popularity Study)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <style type="text/css">
+
+            body{
+                max-width: 100%;
+                height:200%;
+            }
+
+            iframe{
+                width: 100%;
+                height:750px;
+                border:none;
+            }
+            img{
+                width: 30%;
+                height:30%;
+                border:none;
+            }
+            h1, h5{
+                max-width:100%
+            }
+        </style>
+
+        <h1>World Map of Zac Efron Movie's Earnings</h1>
+        <br/>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~Coduhuey/1.embed" height="100%" width="100%"></iframe>
+        <h5>I wanted to see how popular Zac Efron was worldwide. So to do that I picked a choropleth map and marked the countries that paid the most to watch a Zac Efron film (out of his 5 most popular). As you can see, China paid the most. If I had more time I would normalize by population count and get more popular movies (than just 5) in my data. </h5>
+        <hr/>
+        <h1>Radar Map of Movie Titles Zac Efron starred in</h1>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~Coduhuey/3.embed" height="100%" width="100%"></iframe>
+        <h1>Radar Map of Movie and TV Titles Zac Efron starred in</h1>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~Coduhuey/5.embed" height="100%" width="100%"></iframe>
+        <h1>Frequency of Type of Media Zac Efron Was In</h1>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~Coduhuey/7.embed" height="100%" width="100%"></iframe>
+        <h5>Here I have the most popular keywords in the movie titles Zac Efron starred in. From the first graph you can see it's mostly High School Musical. I used the library from the starter code which gave me tv titles too. I didn't want that in my sample so I filtered for the first graph (unfiltered for second). The last graph just shows how often he appeared in tv than movies. So Zac Efron is probably more of a movie star (though it's a bar chart so ignore it).</h5>
+        <hr/>
+        <h1>Zac Efron, Earnings VS Ratings (Popularity Over Time)</h1>
+        <img src="RedEaringsVSBlueRating.png"/>
+        <h4>Legend:</h4>
+        <h5>Red = Earnings</h5>
+        <h5>Blue = Movie Rating</h5>
+        <h5>I wanted to see if people went to a Zac Efron movie because it's a good movie or just because Zac Efron was in it. It was also a good measure of popularity over time. So I graphed the size of those dots on a timeline (in Google Sheets). Two seperate charts for ratings and earnings, then overlayed them. This doesn't have enough data points and seems inconsistent but it doesn't seem that Zac Efron's popularity effects movie earnings (which I find hard to believe)</h5>
+            
+            <!-- Get exactly from tls.getEmbeded!! <iframe scrolling="no" sandbox="allow-scripts" src=""></iframe> -->
+        </div>
+        <h3>Code Here: https://github.com/Coduhuey/Visualizations/blob/master/HW4.ipynb</h3>
+
+    </body>
+
+</html>
